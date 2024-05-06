@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Strings {
     public static void main(String[] args) {
-        /* 
+         
         //getting string input----------->
         
         Scanner sc=new Scanner(System.in);
@@ -18,7 +18,7 @@ public class Strings {
         System.out.println("Your name is:- "+fullname);
         sc.close();
 
-        */
+        
 
         //Useful methods -------------->
 
@@ -57,9 +57,9 @@ public class Strings {
 
          //substring----->
          String sent="My name is Tony Stark";
-         String name=sent.substring(11, 17);
+         String name1=sent.substring(11, 17);
          String lname=sent.substring(16);
-         System.out.println(name);
+         System.out.println(name1);
          System.out.println(lname);
 
 
